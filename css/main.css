@@ -1,0 +1,45 @@
+/* Place CSS styles here */
+
+/* main.css */
+.art-button {
+    color: #FF91AF;
+    background-color: #1b1b1b;
+    font-size: 16 px;
+    transition: background-color .5s ease; 
+}
+h1 { 
+    color: #FF91AF
+
+}
+
+html { 
+    scroll-behavior: smooth;
+}
+
+p { 
+    color: #FF91AF
+    font-size: 20 px; 
+}
+
+/* homepage */
+div { 
+    max-width: 800 px;
+    margin: 0 auto;
+    border: 1 px solid #999;
+    border-radius: 12 px;
+    padding: 12 px 24 px;
+
+}
+
+span {
+    color: #FF91AF;
+}
+
+h1 { 
+    color: aqua
+}
+
+section {
+    padding: 16 px;
+    border: 1 px solid #1b1b1b; 
+}
