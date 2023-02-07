@@ -1,1 +1,20 @@
 /* Place CSS styles here */
+
+body {
+    /* distribute font to entire site */
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Karla', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { 
+    font-family: 'Karla', sans-serif;
+}
