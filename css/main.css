@@ -7,6 +7,12 @@ body {
 
 h1 {
     font-family: 'Karla', sans-serif;
+    text-shadow: 5px 4px 7px red;
+
+}
+
+p {
+    font-size:20px;
 
 }
 
@@ -17,4 +23,14 @@ h4,
 h5,
 h6 { 
     font-family: 'Karla', sans-serif;
+    font-style: italic; 
+    font-weight: 700; 
+    text-transform: uppercase; 
+
+}
+
+img {
+    display: block;
+    margin: auto 0;
+
 }
