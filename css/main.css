@@ -12,7 +12,7 @@ h1 {
 }
 
 p {
-    font-size:20px;
+    font-size: 20px;
 
 }
 
@@ -29,8 +29,18 @@ h6 {
 
 }
 
+a {
+   text-decoration: none;
+   color: red; 
+
+}
+
 img {
     display: block;
     margin: auto 0;
 
+}
+
+.cookie {
+    text-align: left;
 }
