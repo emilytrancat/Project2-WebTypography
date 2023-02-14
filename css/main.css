@@ -43,6 +43,56 @@ img {
 
 .cookie {
     text-align: left;
-    border: 4px red
+    border: 4px red;
     
+}
+
+.val-header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: sticky; 
+top: 0;
+background-color: gray; 
+
+}
+
+.val-intro {
+    background-color: pink;
+     display: flex;
+    justify-content: center; 
+    }
+
+.val-smaller-image {
+width: 20%
+}
+
+.val-row-3-tiles {
+display: flex;
+justify-content: center;
+gap: 30px;
+background-color: bisque;
+}
+
+.val-row-3 {
+    background-color: aquamarine;
+    padding: 30px;
+
+}
+
+footer {
+display: flex;
+justify-content: flex-end;
+}
+
+footer img {
+    width: 80 px; 
+}
+
+.val-featured-image {
+min height: 300 px;
+background-image: url(.../img/);
+background-repeat: no-repeat; 
+background-size: cover;
+background-position: center center;
 }
