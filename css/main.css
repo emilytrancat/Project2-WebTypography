@@ -48,14 +48,25 @@ img {
 }
 
 .val-header {
-display: flex;
-align-items: center;
-justify-content: space-between;
-position: sticky; 
-top: 0;
-background-color: gray; 
-
+    background-color: black;
 }
+
+.val-header nav {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    padding: 30px;
+    
+    }
+
+.val-header nav a {
+    color: blueviolet;
+}
+
+.val-header nav img {
+    width: 40px;
+}
+
 
 .val-intro {
     background-color: pink;
@@ -90,9 +101,10 @@ footer img {
 }
 
 .val-featured-image {
-min height: 300 px;
-background-image: url(.../img/);
+min-height: 300px;
+height: 600px;
+background: url(../img/spongebob.jpeg);
 background-repeat: no-repeat; 
 background-size: cover;
-background-position: center center;
+background-position: center center; 
 }
