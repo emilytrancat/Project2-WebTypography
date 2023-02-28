@@ -108,3 +108,28 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center center; 
 }
+
+.Primary-click {
+    padding-top: 10 px;
+    padding-bottom: 10 px;
+    padding-right: 20 px;
+    padding-left: 20 px;
+    color: light pink;
+    background-color: black;
+    border: 1 px solid black; 
+    font-size: 20 px; 
+    font-weight: 600;
+    border-radius: 8 px;
+    transition: all .25s ease; 
+
+}
+
+.Primary-click:hover { 
+    color: black;
+    background-color: light pink;
+}
+
+.Primary-click:focus {
+    box-shadow: 0 0 0 4px aqua;
+
+}
