@@ -133,3 +133,50 @@ background-position: center center;
     box-shadow: 0 0 0 4px aqua;
 
 }
+
+.t-hidden {
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    clip: rect(1px,1px,1px,1px);
+    -webkit-clip-path: inset(0 0 99.9% 99.9%);
+    clip-path: inset(0 0 99.9% 99.9%);
+    overflow: hidden;
+    white-space: nowrap;
+    border: 0;
+}
+
+body {
+    font: 0.7rem sans-serif;
+  }
+
+  h1 {
+    margin:  10px;
+  }
+
+  ul#episodes {
+    float: left;
+    margin:  0 10px;
+    padding: 0;
+    width: 35%;
+  }
+
+  ul#episodes > li {
+    list-style-type: none;
+  }
+
+  button {
+    border-radius:  7px;
+    border: 0;
+    background: #191414;
+    color: #fff;
+    padding:  10px;
+    margin:  0 0 3px 0;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #1Db954;
+  }
