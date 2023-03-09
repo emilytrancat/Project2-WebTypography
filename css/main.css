@@ -181,16 +181,9 @@ body {
     background: #1Db954;
   }
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 375px) {
     html {
       font-size: 110%;
-    }
-  }
-
-
-  @media screen and (min-width: 480px) {
-    body {
-      background-color: lightcoral;
     }
   }
 
@@ -198,13 +191,19 @@ body {
     display: flex;
   }
 
-  @media screen and (max-width: 767px) {
-    .episodes {
+  @media screen and (orientation: portrait) {
+    body {
+      background-color: white;
+    }
+  }
+
+  @media screen and (max-width: 1280px) {
+     .episodes {
       flex-direction: column;
     }
   }  
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 980px) {
     .episodes {
       flex-direction: row;
     }
