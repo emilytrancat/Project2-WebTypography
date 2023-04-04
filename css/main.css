@@ -8,10 +8,12 @@ body {
 
 span {
   text-align: center;
-  justify-content: center;
   font-family: 'Cutive Mono', monospace;
   display: inline-block;
   font-weight: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flexbox;
 }
 
 h1 {
@@ -37,17 +39,21 @@ background-size: cover;
   padding-bottom: 20px;
 }
 
+.font-one-main {
+  font-size: 30px;
+}
+
 .font-one {
   font-family: 'Rye', cursive;
   color: palevioletred;
-  font-size: 35px;
+  font-size: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .font-two {
   font-family: 'Vibur', cursive;
-  font-size: 45px;
+  font-size: 30px;
   color: salmon;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -59,19 +65,20 @@ background-size: cover;
   color: rgb(214, 97, 214);
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 .font-one-color {
   font-family: 'Rye', cursive;
   color: palevioletred;
-  font-size: 35px;
+  font-size: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .font-two-color {
   font-family: 'Vibur', cursive;
-  font-size: 45px;
+  font-size: 30px;
   color: salmon;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -87,7 +94,7 @@ background-size: cover;
   font-family: 'Almendra SC', serif;
   padding-top: 20px;
   padding-bottom: 20px; 
-  font-size: 35px;
+  font-size: 30px;
   color: darkblue;
 }
 
@@ -95,7 +102,7 @@ background-size: cover;
   font-family: 'Cabin Sketch', cursive;
   padding-top: 20px;
   padding-bottom: 20px; 
-  font-size: 35px;
+  font-size: 30px;
   color: grey;
 }
 
@@ -103,27 +110,25 @@ background-size: cover;
   font-family: 'Sacramento', cursive;
   padding-top: 20px;
   padding-bottom: 20px; 
-  font-size: 35px;
+  font-size: 30px;
   color: salmon; 
 }
 
 .font-seven {
   font-family: 'Cabin Sketch', cursive;
-  padding-top: 20px;
-  padding-bottom: 20px; 
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
-  color: red; 
+  color: olive; 
 }
 
 .font-eight {
   font-family: 'Cabin Sketch', cursive;
-  padding-top: 20px;
-  padding-bottom: 20px; 
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
-  color: magenta; 
+  color: olivedrab; 
 }
+
+
 
 .audio-main {
   justify-content: right;
